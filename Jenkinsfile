@@ -10,6 +10,6 @@ node {
 		docker.image("duke/nginx").withRun('-p 8080:80') {
 			sh 'docker ps'
 			sh 'curl localhost:8080'
-		{
+		}
 	}
 }
